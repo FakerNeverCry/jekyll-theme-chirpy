@@ -100,20 +100,28 @@
 
 }
 
+
+@mixin light-mode-invisible {
+  *[light-mode-invisible] {
+      display: none;
+  }
+}
+
+@mixin dark-mode-invisible {
+  *[dark-mode-invisible] {
+      display: none;
+  }
+}
+
 @media (prefers-color-scheme: light) {
 
   html:not([mode]), html[mode=light] {
-    *[light-mode-invisible] {
-      display: none;
-    }
+    @include light-mode-invisible;
   }
 
   html[mode=dark] {
     @include dark-scheme;
-
-    *[dark-mode-invisible] {
-      display: none;
-    }
+    @include dark-mode-invisible;
   }
 
 } // light prefers
@@ -123,16 +131,11 @@
 
   html:not([mode]), html[mode=dark] {
     @include dark-scheme;
-
-    *[dark-mode-invisible] {
-      display: none;
-    }
+    @include dark-mode-invisible;
   }
 
   html[mode=light] {
-    *[light-mode-invisible] {
-      display: none;
-    }
+    @include light-mode-invisible;
   }
 
 } // dark prefers
