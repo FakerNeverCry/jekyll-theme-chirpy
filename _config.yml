@@ -10,7 +10,7 @@
 
 title: WhyK                          # the main title
 
-tagline: Meet Stree Lamp and fade away.  # it will display as the sub-title
+tagline: Meet stree lamp and fade away.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.
@@ -65,7 +65,7 @@ disqus:
   shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # The year your website first ran.
-first_run: 2020
+first_run: 2022
 
 
 # Prefer color scheme setting, available values:
