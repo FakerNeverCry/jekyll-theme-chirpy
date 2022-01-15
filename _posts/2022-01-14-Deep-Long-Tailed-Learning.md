@@ -1,5 +1,5 @@
 ---
-title: [Weekly Paper]Deep Long-Tailed Learning A Survey
+title: Deep Long-Tailed Learning A Survey
 date: 2022-01-15 8:12:00 +0800
 categories: [Paper]
 tags: [Review, Long-tailed Learning, Deep Learning, Imbalanced Learning, Re-sampling]
