@@ -22,7 +22,7 @@ seo:
 
 ​		In real-world applications, training samples typically exhibit a long-tailed class distribution, where a small portion of classes have massive sample points but the others are associated with only a few samples. (as shown in **Fig. 1**)
 
-<img src="/home/whyk/snap/typora/46/.config/Typora/typora-user-images/image-20220115150132185.png" alt="image-20220115150132185" style="zoom:67%;" />
+<img src="/home/whyk/project/hellostreetlamp.github.io/assets/img/commons/image-20220115150132185.png" alt="image-20220115150132185" style="zoom:67%;" />
 
 ​		To address long-tailed class imbalance, massive deep long-tailed learning studies have been conducted in recent years, , we aim to provide a comprehensive survey for recent long-tailed learning studies conducted before mid-2021. As shown in **Fig. 2**, we group existing methods into three main categories based on their main technical contributions.
 
@@ -32,42 +32,7 @@ seo:
 
 ##### 2.1 Problem Definition
 
-$$
-\begin{align}
-&\textrm{Long-tailed training set:}
-\quad
-\begin{Bmatrix}
-x_{i}, y_{i}
-\end{Bmatrix}^{n}_{i=1}
-\qquad
-\textrm{(where each sample}
-\;x_{i}\;
-\textrm{has a corresponding class label }
-\;y_{i}
-)
-\\
-&\textrm{Total number of training
-set over K classes:}
-\quad
-n = \sum_{k=1}^n n_k
-\qquad
-\textrm{(where}
-\;n_{k}\;
-\textrm{denotes the data
-number of class  }
-\;k,\; )
-
-\\
-&n_{k}/n
-\textrm{ indicates the label frequency of class k.}
-\\
-\\
-&\textrm{classes are sorted by cardinality in
-decreasing order ,
-and then the imbalance ratio is defined as\;}
-n1/nK.
-\end{align}
-$$
+![image-20220115171229779](/home/whyk/project/hellostreetlamp.github.io/assets/img/commons/image-20220115171229779.png)
 
 ​		This task is challenging due to two difficulties:
 
@@ -76,7 +41,7 @@ $$
 
 ##### 2.2 Datasets
 
-<img src="/home/whyk/snap/typora/46/.config/Typora/typora-user-images/image-20220115161911543.png" alt="image-20220115161911543"  />
+<img src="/home/whyk/project/hellostreetlamp.github.io/assets/img/commons/image-20220115161911543.png" alt="image-20220115161911543"  />
 
 ##### <del>2.3 Evaluation Metrics </del>
 
@@ -94,7 +59,7 @@ $$
 
 > 3. CLASSIC METHODS
 
-![image-20220115150414900](/home/whyk/snap/typora/46/.config/Typora/typora-user-images/image-20220115150414900.png)
+![image-20220115150414900](/home/whyk/project/hellostreetlamp.github.io/assets/img/commons/image-20220115150414900.png)
 
 ##### 3.1 Class Re-balancing
 
