@@ -1,5 +1,5 @@
 ---
-title: Deep-Long-Tailed-Learning
+title: Deep Long Tailed Learning
 date: 2022-01-15 8:12:00 +0800
 categories: [Paper]
 tags: [Review, Long-tailed Learning, Deep Learning, Imbalanced Learning, Re-sampling]
